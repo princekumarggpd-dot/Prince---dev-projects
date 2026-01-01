@@ -21,6 +21,18 @@ Basic problem-solving programs
 🔹 Note
 This repository is part of my learning journey and will be updated regularly as I improve my skills.
 
+🔹 Structure
+Each folder or file focuses on a specific concept, with simple examples and practice programs.
+Code is written to be easy to understand and beginner-friendly.
+🔹 Who This Is For
+Beginners learning Python
+Anyone revising Python fundamentals
+Practice before moving to automation, data processing, or scripting
+🔹 How to Run
+
+python filename.py
+Make sure Python 3 is installed on your system
+
 
 
 
