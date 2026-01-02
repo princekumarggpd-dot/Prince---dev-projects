@@ -1,0 +1,37 @@
+List Operations (Indexing, Slicing & Methods)
+
+fruits  =["Apple","Banana","Orange"]  
+fe = fruits[2:5]
+print(fe,fe*3)
+gh = ["Hello","Python","My","Name"]
+g = gh.copy()
+print(g)
+gh.pop()
+g.clear()
+print(g)
+gh[0] = "Anaconda"
+print(gh)
+j = fruits+gh
+print(j*510)
+print("Anaconda" in gh)
+print(gh.index("Anaconda"),gh.count(1))
+n = [1,2,6,4,5,6]
+print(sum(n),n.sort(),n.reverse(),n)
+
+# Nested List
+n2 = [1,2,[2.1,2.2],3,4]
+n3 = [1,2,9,10,29]
+print(1 in n3,1 not in n3)
+print(n2[2][0])
+print(list(n3))
+print(type(n3))
+d = list(n3)
+n3.sort(reverse=True)
+print(n3)
+attempts = 0
+for i in range(0,len(n3)+1):
+    n3[i] = 0
+    attempts += 1
+    print(n3,attempts)
+    if n3[4]==0:
+        break
